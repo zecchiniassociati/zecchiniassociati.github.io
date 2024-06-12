@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6fa21c09312496151ada856b77575797 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6fa21c09312496151ada856b77575797" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6fa21c09312496151ada856b77575797 = L.map(
+                "map_6fa21c09312496151ada856b77575797",
+                {
+                    center: [41.8719, 12.5674],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b65b60538d691048adff789512ab9c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+            var marker_5581f47a50b8812c4d17627a028041bf = L.marker(
+                [44.91666666666666, 8.616666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_a45198336dd97efed9bb3eba23f8d5a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1258799ff49c62ce525b148939639e17 = $(`<div id="html_1258799ff49c62ce525b148939639e17" style="width: 100.0%; height: 100.0%;">Alessandria (AL)<br>Numero Commesse: 12</div>`)[0];
+            popup_a45198336dd97efed9bb3eba23f8d5a5.setContent(html_1258799ff49c62ce525b148939639e17);
+        
+
+        marker_5581f47a50b8812c4d17627a028041bf.bindPopup(popup_a45198336dd97efed9bb3eba23f8d5a5)
+        ;
+
+        
+    
+    
+            var marker_8a6063b50a1c6f79e042bed3d4b70924 = L.marker(
+                [43.61666666666667, 13.51666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_6cfb863d1920d6c5cec54e8dbbad69c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e15328898d3067c6d553113fb445f881 = $(`<div id="html_e15328898d3067c6d553113fb445f881" style="width: 100.0%; height: 100.0%;">Ancona (AN)<br>Numero Commesse: 4</div>`)[0];
+            popup_6cfb863d1920d6c5cec54e8dbbad69c9.setContent(html_e15328898d3067c6d553113fb445f881);
+        
+
+        marker_8a6063b50a1c6f79e042bed3d4b70924.bindPopup(popup_6cfb863d1920d6c5cec54e8dbbad69c9)
+        ;
+
+        
+    
+    
+            var marker_f5b81bc15d874378d998b251652c84b8 = L.marker(
+                [45.73333333333333, 7.316666666666666],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_dabb51f72b534be35b6a2de473a10694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_872a8c37c1e31e00710b2efbede6e933 = $(`<div id="html_872a8c37c1e31e00710b2efbede6e933" style="width: 100.0%; height: 100.0%;">Aosta (AO)<br>Numero Commesse: 1</div>`)[0];
+            popup_dabb51f72b534be35b6a2de473a10694.setContent(html_872a8c37c1e31e00710b2efbede6e933);
+        
+
+        marker_f5b81bc15d874378d998b251652c84b8.bindPopup(popup_dabb51f72b534be35b6a2de473a10694)
+        ;
+
+        
+    
+    
+            var marker_a2084aa9ffbaad6345df56c9e6991dc6 = L.marker(
+                [43.46666666666667, 11.88333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_8d932deb32523c3965d28fd710ecd29d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfb5333ab592f3df4c9c51a42ad4ed5e = $(`<div id="html_cfb5333ab592f3df4c9c51a42ad4ed5e" style="width: 100.0%; height: 100.0%;">Arezzo (AR)<br>Numero Commesse: 6</div>`)[0];
+            popup_8d932deb32523c3965d28fd710ecd29d.setContent(html_cfb5333ab592f3df4c9c51a42ad4ed5e);
+        
+
+        marker_a2084aa9ffbaad6345df56c9e6991dc6.bindPopup(popup_8d932deb32523c3965d28fd710ecd29d)
+        ;
+
+        
+    
+    
+            var marker_7e4085a6b3ed2fadd8f3c7ffd14b8fdc = L.marker(
+                [42.85, 13.56666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e6ee71c38eed10a93063f75ecedf5675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3361bb2fc8d9a8fd44259636650c8740 = $(`<div id="html_3361bb2fc8d9a8fd44259636650c8740" style="width: 100.0%; height: 100.0%;">Ascoli Piceno (AP)<br>Numero Commesse: 1</div>`)[0];
+            popup_e6ee71c38eed10a93063f75ecedf5675.setContent(html_3361bb2fc8d9a8fd44259636650c8740);
+        
+
+        marker_7e4085a6b3ed2fadd8f3c7ffd14b8fdc.bindPopup(popup_e6ee71c38eed10a93063f75ecedf5675)
+        ;
+
+        
+    
+    
+            var marker_6e1e756b388c08382dee8fa7ffc2cc55 = L.marker(
+                [44.88333333333333, 8.2],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_74595f40bb7554c369051042eeaf2f67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd82e3f906154e5e98585155b28cb0ae = $(`<div id="html_bd82e3f906154e5e98585155b28cb0ae" style="width: 100.0%; height: 100.0%;">Asti (AT)<br>Numero Commesse: 1</div>`)[0];
+            popup_74595f40bb7554c369051042eeaf2f67.setContent(html_bd82e3f906154e5e98585155b28cb0ae);
+        
+
+        marker_6e1e756b388c08382dee8fa7ffc2cc55.bindPopup(popup_74595f40bb7554c369051042eeaf2f67)
+        ;
+
+        
+    
+    
+            var marker_8a486abfabb8c794b2906fcd88511fe6 = L.marker(
+                [40.91666666666666, 14.78333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_b2ec9d1ccaeceb59ea16fa8b269b599b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17a6a2ad039e66db3bb6749bf07c28aa = $(`<div id="html_17a6a2ad039e66db3bb6749bf07c28aa" style="width: 100.0%; height: 100.0%;">Avellino (AV)<br>Numero Commesse: 3</div>`)[0];
+            popup_b2ec9d1ccaeceb59ea16fa8b269b599b.setContent(html_17a6a2ad039e66db3bb6749bf07c28aa);
+        
+
+        marker_8a486abfabb8c794b2906fcd88511fe6.bindPopup(popup_b2ec9d1ccaeceb59ea16fa8b269b599b)
+        ;
+
+        
+    
+    
+            var marker_673e1769e203dc9b46a9d7f8a4a4f77f = L.marker(
+                [41.11666666666667, 16.88333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_a1d0062409ecc6ac74d06c22fba7b339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2b1151d96d11f3a742f106de7a2fac = $(`<div id="html_ba2b1151d96d11f3a742f106de7a2fac" style="width: 100.0%; height: 100.0%;">Bari (BA)<br>Numero Commesse: 2</div>`)[0];
+            popup_a1d0062409ecc6ac74d06c22fba7b339.setContent(html_ba2b1151d96d11f3a742f106de7a2fac);
+        
+
+        marker_673e1769e203dc9b46a9d7f8a4a4f77f.bindPopup(popup_a1d0062409ecc6ac74d06c22fba7b339)
+        ;
+
+        
+    
+    
+            var marker_9dec0975ba7c43e06b37311a550b2160 = L.marker(
+                [46.13333333333333, 12.21666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_5425a16140c87031ebc6ded4ffee1380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d11714627222ce33301ed9fa00d7e216 = $(`<div id="html_d11714627222ce33301ed9fa00d7e216" style="width: 100.0%; height: 100.0%;">Belluno (BL)<br>Numero Commesse: 3</div>`)[0];
+            popup_5425a16140c87031ebc6ded4ffee1380.setContent(html_d11714627222ce33301ed9fa00d7e216);
+        
+
+        marker_9dec0975ba7c43e06b37311a550b2160.bindPopup(popup_5425a16140c87031ebc6ded4ffee1380)
+        ;
+
+        
+    
+    
+            var marker_fec51baee2be96aeab9a63a66cf50d61 = L.marker(
+                [45.6933850134838, 9.67122989242346],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_3aa6f71fa5a5a96819710a033a3d42f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3ff6fe078bee710cb5c07804f03ffb1 = $(`<div id="html_f3ff6fe078bee710cb5c07804f03ffb1" style="width: 100.0%; height: 100.0%;">Bergamo (BG)<br>Numero Commesse: 11</div>`)[0];
+            popup_3aa6f71fa5a5a96819710a033a3d42f9.setContent(html_f3ff6fe078bee710cb5c07804f03ffb1);
+        
+
+        marker_fec51baee2be96aeab9a63a66cf50d61.bindPopup(popup_3aa6f71fa5a5a96819710a033a3d42f9)
+        ;
+
+        
+    
+    
+            var marker_f70ce08bc2ad124d60a7c3531de355c5 = L.marker(
+                [45.56666666666667, 8.05],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_da7e18cd1600f81fa28bdac02ac7f2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_264d28b73e6b181fce5bf8cd2d7c2c7d = $(`<div id="html_264d28b73e6b181fce5bf8cd2d7c2c7d" style="width: 100.0%; height: 100.0%;">Biella (BI)<br>Numero Commesse: 1</div>`)[0];
+            popup_da7e18cd1600f81fa28bdac02ac7f2c4.setContent(html_264d28b73e6b181fce5bf8cd2d7c2c7d);
+        
+
+        marker_f70ce08bc2ad124d60a7c3531de355c5.bindPopup(popup_da7e18cd1600f81fa28bdac02ac7f2c4)
+        ;
+
+        
+    
+    
+            var marker_fe3edc9d4c2b267c53a4a1590ed0d506 = L.marker(
+                [44.4938203, 11.3426327],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_11bce8f96e79a181e47e6ed641e9813e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b76c2b79b6db1367c5e7d0ed6b1351 = $(`<div id="html_89b76c2b79b6db1367c5e7d0ed6b1351" style="width: 100.0%; height: 100.0%;">Bologna (BO)<br>Numero Commesse: 224</div>`)[0];
+            popup_11bce8f96e79a181e47e6ed641e9813e.setContent(html_89b76c2b79b6db1367c5e7d0ed6b1351);
+        
+
+        marker_fe3edc9d4c2b267c53a4a1590ed0d506.bindPopup(popup_11bce8f96e79a181e47e6ed641e9813e)
+        ;
+
+        
+    
+    
+            var marker_8026a85afedf411c16a325e1a6bbe8cf = L.marker(
+                [46.4828483173376, 11.03333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_0324ac15c964432226c36c5a2fc846f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd2be0af203ad1e799eec5dc379f8558 = $(`<div id="html_dd2be0af203ad1e799eec5dc379f8558" style="width: 100.0%; height: 100.0%;">Bolzano (BZ)<br>Numero Commesse: 9</div>`)[0];
+            popup_0324ac15c964432226c36c5a2fc846f1.setContent(html_dd2be0af203ad1e799eec5dc379f8558);
+        
+
+        marker_8026a85afedf411c16a325e1a6bbe8cf.bindPopup(popup_0324ac15c964432226c36c5a2fc846f1)
+        ;
+
+        
+    
+    
+            var marker_d4616327bc99b09ec6a276b0370c4ea1 = L.marker(
+                [45.53333333333333, 11.3407914383064],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_f64e36c3ba53db12afbf2723e2cb0a3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490c6403ad809a068c44b25d7c932a44 = $(`<div id="html_490c6403ad809a068c44b25d7c932a44" style="width: 100.0%; height: 100.0%;">Brescia (BS)<br>Numero Commesse: 14</div>`)[0];
+            popup_f64e36c3ba53db12afbf2723e2cb0a3c.setContent(html_490c6403ad809a068c44b25d7c932a44);
+        
+
+        marker_d4616327bc99b09ec6a276b0370c4ea1.bindPopup(popup_f64e36c3ba53db12afbf2723e2cb0a3c)
+        ;
+
+        
+    
+    
+            var marker_aa6ba83ceba6aa07d00ec42d40550375 = L.marker(
+                [39.21666666666667, 9.116666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ca8b44c8c8995397f03099a7496312c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcfb6f269308644bde2dc10d96099eb4 = $(`<div id="html_fcfb6f269308644bde2dc10d96099eb4" style="width: 100.0%; height: 100.0%;">Cagliari (CA)<br>Numero Commesse: 4</div>`)[0];
+            popup_ca8b44c8c8995397f03099a7496312c9.setContent(html_fcfb6f269308644bde2dc10d96099eb4);
+        
+
+        marker_aa6ba83ceba6aa07d00ec42d40550375.bindPopup(popup_ca8b44c8c8995397f03099a7496312c9)
+        ;
+
+        
+    
+    
+            var marker_14b37c93f759ec50373a54fdb704629a = L.marker(
+                [41.06666666666667, 14.31666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_4631672ea5005428d8b83707c87c23f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_863ef1862f55b5880faf169cbc7f1804 = $(`<div id="html_863ef1862f55b5880faf169cbc7f1804" style="width: 100.0%; height: 100.0%;">Caserta (CE)<br>Numero Commesse: 2</div>`)[0];
+            popup_4631672ea5005428d8b83707c87c23f8.setContent(html_863ef1862f55b5880faf169cbc7f1804);
+        
+
+        marker_14b37c93f759ec50373a54fdb704629a.bindPopup(popup_4631672ea5005428d8b83707c87c23f8)
+        ;
+
+        
+    
+    
+            var marker_aeb4902740d63adbf66366016cce9358 = L.marker(
+                [37.5023612, 15.0873718],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_fce8d52715e709be0423bc4b49dd7aac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d972c675bc714b8ea59236a249fd78d2 = $(`<div id="html_d972c675bc714b8ea59236a249fd78d2" style="width: 100.0%; height: 100.0%;">Catania (CT)<br>Numero Commesse: 5</div>`)[0];
+            popup_fce8d52715e709be0423bc4b49dd7aac.setContent(html_d972c675bc714b8ea59236a249fd78d2);
+        
+
+        marker_aeb4902740d63adbf66366016cce9358.bindPopup(popup_fce8d52715e709be0423bc4b49dd7aac)
+        ;
+
+        
+    
+    
+            var marker_416cf50f9f241437e3f46ca3b92668ad = L.marker(
+                [38.9, 16.58333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ec9bbddb8b89378b12195d5f455284bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e79ceaa6b1df195fd0160915478dce5 = $(`<div id="html_5e79ceaa6b1df195fd0160915478dce5" style="width: 100.0%; height: 100.0%;">Catanzaro (CZ)<br>Numero Commesse: 2</div>`)[0];
+            popup_ec9bbddb8b89378b12195d5f455284bb.setContent(html_5e79ceaa6b1df195fd0160915478dce5);
+        
+
+        marker_416cf50f9f241437e3f46ca3b92668ad.bindPopup(popup_ec9bbddb8b89378b12195d5f455284bb)
+        ;
+
+        
+    
+    
+            var marker_89b3d75eb9183c27c15de8ab4dbf9f34 = L.marker(
+                [42.35, 14.01666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_484030bb4dcbee3ae50a4647c012c760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca61c18cb7ccdf3a684db8093592f7c3 = $(`<div id="html_ca61c18cb7ccdf3a684db8093592f7c3" style="width: 100.0%; height: 100.0%;">Chieti (CH)<br>Numero Commesse: 2</div>`)[0];
+            popup_484030bb4dcbee3ae50a4647c012c760.setContent(html_ca61c18cb7ccdf3a684db8093592f7c3);
+        
+
+        marker_89b3d75eb9183c27c15de8ab4dbf9f34.bindPopup(popup_484030bb4dcbee3ae50a4647c012c760)
+        ;
+
+        
+    
+    
+            var marker_9ea5162516aba1dd308dea22d1f04012 = L.marker(
+                [45.8051681935412, 9.06631261855636],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_c92b08fa300c020efe75a5a35f89685d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_977adb1979134cdd624235bfe6a4a26c = $(`<div id="html_977adb1979134cdd624235bfe6a4a26c" style="width: 100.0%; height: 100.0%;">Como (CO)<br>Numero Commesse: 9</div>`)[0];
+            popup_c92b08fa300c020efe75a5a35f89685d.setContent(html_977adb1979134cdd624235bfe6a4a26c);
+        
+
+        marker_9ea5162516aba1dd308dea22d1f04012.bindPopup(popup_c92b08fa300c020efe75a5a35f89685d)
+        ;
+
+        
+    
+    
+            var marker_b9bb2f6177ec8011f3a7ef39c0308bdd = L.marker(
+                [39.28333333333333, 16.25],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_834bf43e51ac496280d3a471ddc1aed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e821abe1efdc4b7a93bb2254190639c8 = $(`<div id="html_e821abe1efdc4b7a93bb2254190639c8" style="width: 100.0%; height: 100.0%;">Cosenza (CS)<br>Numero Commesse: 1</div>`)[0];
+            popup_834bf43e51ac496280d3a471ddc1aed5.setContent(html_e821abe1efdc4b7a93bb2254190639c8);
+        
+
+        marker_b9bb2f6177ec8011f3a7ef39c0308bdd.bindPopup(popup_834bf43e51ac496280d3a471ddc1aed5)
+        ;
+
+        
+    
+    
+            var marker_ce156ea8d26b185054725bf65b753552 = L.marker(
+                [45.13333333333333, 10.03333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_3d9733a31cdbf6bb9c6ca1dee7e08f1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_985758ab02afae8f41a7b45369fc5c2c = $(`<div id="html_985758ab02afae8f41a7b45369fc5c2c" style="width: 100.0%; height: 100.0%;">Cremona (CR)<br>Numero Commesse: 7</div>`)[0];
+            popup_3d9733a31cdbf6bb9c6ca1dee7e08f1f.setContent(html_985758ab02afae8f41a7b45369fc5c2c);
+        
+
+        marker_ce156ea8d26b185054725bf65b753552.bindPopup(popup_3d9733a31cdbf6bb9c6ca1dee7e08f1f)
+        ;
+
+        
+    
+    
+            var marker_f67264258f7ffc58d95961df5e368a43 = L.marker(
+                [44.4, 7.55],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_6e53185067d8840ee4526787d40146d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3932ebc358afe42cea93253854e33597 = $(`<div id="html_3932ebc358afe42cea93253854e33597" style="width: 100.0%; height: 100.0%;">Cuneo (CN)<br>Numero Commesse: 1</div>`)[0];
+            popup_6e53185067d8840ee4526787d40146d6.setContent(html_3932ebc358afe42cea93253854e33597);
+        
+
+        marker_f67264258f7ffc58d95961df5e368a43.bindPopup(popup_6e53185067d8840ee4526787d40146d6)
+        ;
+
+        
+    
+    
+            var marker_09a9408c3cee592e3bd4715075ad0cb3 = L.marker(
+                [37.56666666666667, 14.26666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_6386b10a4ad2b38b1a44927c9fc94b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a415ddac00d8643bd24e8df78f6fc82b = $(`<div id="html_a415ddac00d8643bd24e8df78f6fc82b" style="width: 100.0%; height: 100.0%;">Enna (EN)<br>Numero Commesse: 2</div>`)[0];
+            popup_6386b10a4ad2b38b1a44927c9fc94b8c.setContent(html_a415ddac00d8643bd24e8df78f6fc82b);
+        
+
+        marker_09a9408c3cee592e3bd4715075ad0cb3.bindPopup(popup_6386b10a4ad2b38b1a44927c9fc94b8c)
+        ;
+
+        
+    
+    
+            var marker_8093219a659114853808c1364ab94400 = L.marker(
+                [43.1522919279661, 13.7098018814902],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_f9707cfe8710558f70629301a3235997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75fe1541955c5788944ffddebbf4b117 = $(`<div id="html_75fe1541955c5788944ffddebbf4b117" style="width: 100.0%; height: 100.0%;">Fermo (FM)<br>Numero Commesse: 3</div>`)[0];
+            popup_f9707cfe8710558f70629301a3235997.setContent(html_75fe1541955c5788944ffddebbf4b117);
+        
+
+        marker_8093219a659114853808c1364ab94400.bindPopup(popup_f9707cfe8710558f70629301a3235997)
+        ;
+
+        
+    
+    
+            var marker_b71ad62a658eef597d232bcd3e89cfaa = L.marker(
+                [44.8341712729125, 11.6074362342754],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_65ef598301a5732e46407a384227a7b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63a587ed69db22b15b81e6d9345af0f5 = $(`<div id="html_63a587ed69db22b15b81e6d9345af0f5" style="width: 100.0%; height: 100.0%;">Ferrara (FE)<br>Numero Commesse: 38</div>`)[0];
+            popup_65ef598301a5732e46407a384227a7b8.setContent(html_63a587ed69db22b15b81e6d9345af0f5);
+        
+
+        marker_b71ad62a658eef597d232bcd3e89cfaa.bindPopup(popup_65ef598301a5732e46407a384227a7b8)
+        ;
+
+        
+    
+    
+            var marker_d6664343eb40945b04a2fa057b100288 = L.marker(
+                [43.76666666666667, 11.25],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_07b1fa49d022b09b8e27671f5baba9fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_991f2b3c7721fd8d600d80da48780592 = $(`<div id="html_991f2b3c7721fd8d600d80da48780592" style="width: 100.0%; height: 100.0%;">Firenza (FI)<br>Numero Commesse: 33</div>`)[0];
+            popup_07b1fa49d022b09b8e27671f5baba9fb.setContent(html_991f2b3c7721fd8d600d80da48780592);
+        
+
+        marker_d6664343eb40945b04a2fa057b100288.bindPopup(popup_07b1fa49d022b09b8e27671f5baba9fb)
+        ;
+
+        
+    
+    
+            var marker_e6dcc377abd85390f2cf079f0ff502fc = L.marker(
+                [41.46666666666667, 15.55],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_2f1590903d44e75bb52f8ff9df8af70a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89a6f5540aa03e29d2958fdc57e40a8a = $(`<div id="html_89a6f5540aa03e29d2958fdc57e40a8a" style="width: 100.0%; height: 100.0%;">Foggia (FG)<br>Numero Commesse: 1</div>`)[0];
+            popup_2f1590903d44e75bb52f8ff9df8af70a.setContent(html_89a6f5540aa03e29d2958fdc57e40a8a);
+        
+
+        marker_e6dcc377abd85390f2cf079f0ff502fc.bindPopup(popup_2f1590903d44e75bb52f8ff9df8af70a)
+        ;
+
+        
+    
+    
+            var marker_ad1377934003ac650e87c8bbd90757da = L.marker(
+                [44.21666666666667, 12.05],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_b1faf64489e8a662206bcddbd5ae5d24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41f6acf72ea343303993bc82314c96eb = $(`<div id="html_41f6acf72ea343303993bc82314c96eb" style="width: 100.0%; height: 100.0%;">Forlì-Cesena (FC)<br>Numero Commesse: 10</div>`)[0];
+            popup_b1faf64489e8a662206bcddbd5ae5d24.setContent(html_41f6acf72ea343303993bc82314c96eb);
+        
+
+        marker_ad1377934003ac650e87c8bbd90757da.bindPopup(popup_b1faf64489e8a662206bcddbd5ae5d24)
+        ;
+
+        
+    
+    
+            var marker_b07966adcc4eda3f91521c4cef85f8dd = L.marker(
+                [44.41666666666666, 8.916666666666666],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_30113a108c99896e92d973d717245dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d9dff6a556c30deb3599c7cc3f0e538 = $(`<div id="html_9d9dff6a556c30deb3599c7cc3f0e538" style="width: 100.0%; height: 100.0%;">Genova (GE)<br>Numero Commesse: 8</div>`)[0];
+            popup_30113a108c99896e92d973d717245dd9.setContent(html_9d9dff6a556c30deb3599c7cc3f0e538);
+        
+
+        marker_b07966adcc4eda3f91521c4cef85f8dd.bindPopup(popup_30113a108c99896e92d973d717245dd9)
+        ;
+
+        
+    
+    
+            var marker_dd022eca0f39921ab761e2e76b9765d9 = L.marker(
+                [42.76666666666667, 11.11666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_85503615ed00f783da9e70c5496e60ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ef612647fdc50158d05b6c8af4cf19 = $(`<div id="html_b5ef612647fdc50158d05b6c8af4cf19" style="width: 100.0%; height: 100.0%;">Grosseto (GR)<br>Numero Commesse: 3</div>`)[0];
+            popup_85503615ed00f783da9e70c5496e60ad.setContent(html_b5ef612647fdc50158d05b6c8af4cf19);
+        
+
+        marker_dd022eca0f39921ab761e2e76b9765d9.bindPopup(popup_85503615ed00f783da9e70c5496e60ad)
+        ;
+
+        
+    
+    
+            var marker_c70b55390c5e30e5985c60bd5ce0c535 = L.marker(
+                [43.88333333333333, 8.016666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e8fac0fc8fe519eb636b99096fc942b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5da867f6950af76e14468b30bad86d4 = $(`<div id="html_e5da867f6950af76e14468b30bad86d4" style="width: 100.0%; height: 100.0%;">Imperia (IM)<br>Numero Commesse: 4</div>`)[0];
+            popup_e8fac0fc8fe519eb636b99096fc942b6.setContent(html_e5da867f6950af76e14468b30bad86d4);
+        
+
+        marker_c70b55390c5e30e5985c60bd5ce0c535.bindPopup(popup_e8fac0fc8fe519eb636b99096fc942b6)
+        ;
+
+        
+    
+    
+            var marker_9e259e201d71d76b16f4fc00e768bf85 = L.marker(
+                [42.35, 13.4],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_adf1d15f2122451bbd43d4865c08729a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c4af9467360fbd9dba64c3210c9904e = $(`<div id="html_3c4af9467360fbd9dba64c3210c9904e" style="width: 100.0%; height: 100.0%;">L'Aquila (AQ)<br>Numero Commesse: 3</div>`)[0];
+            popup_adf1d15f2122451bbd43d4865c08729a.setContent(html_3c4af9467360fbd9dba64c3210c9904e);
+        
+
+        marker_9e259e201d71d76b16f4fc00e768bf85.bindPopup(popup_adf1d15f2122451bbd43d4865c08729a)
+        ;
+
+        
+    
+    
+            var marker_e058cc9ee1e90b41cd599e9353d67536 = L.marker(
+                [44.0971830956158, 9.80966286881434],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_311b3217109f98ac8eb834c0eb9d5489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be461c2a39c2a925741543a1fb286ab4 = $(`<div id="html_be461c2a39c2a925741543a1fb286ab4" style="width: 100.0%; height: 100.0%;">La Spezia (SP)<br>Numero Commesse: 4</div>`)[0];
+            popup_311b3217109f98ac8eb834c0eb9d5489.setContent(html_be461c2a39c2a925741543a1fb286ab4);
+        
+
+        marker_e058cc9ee1e90b41cd599e9353d67536.bindPopup(popup_311b3217109f98ac8eb834c0eb9d5489)
+        ;
+
+        
+    
+    
+            var marker_51ac157f610e6592788e634f32cab747 = L.marker(
+                [40.35, 18.18333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e28a1743a56ac130701fc46d00124ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21fc7372fb454af0417886f20f5fd692 = $(`<div id="html_21fc7372fb454af0417886f20f5fd692" style="width: 100.0%; height: 100.0%;">Lecce (LE)<br>Numero Commesse: 1</div>`)[0];
+            popup_e28a1743a56ac130701fc46d00124ec6.setContent(html_21fc7372fb454af0417886f20f5fd692);
+        
+
+        marker_51ac157f610e6592788e634f32cab747.bindPopup(popup_e28a1743a56ac130701fc46d00124ec6)
+        ;
+
+        
+    
+    
+            var marker_4322eb72e6114be61f5e122cbf0e211d = L.marker(
+                [45.85, 9.383333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_a136014792f88b6181784ea08dda9164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da6ce9760f3747d1dbc68cad4f460017 = $(`<div id="html_da6ce9760f3747d1dbc68cad4f460017" style="width: 100.0%; height: 100.0%;">Lecco (LC)<br>Numero Commesse: 1</div>`)[0];
+            popup_a136014792f88b6181784ea08dda9164.setContent(html_da6ce9760f3747d1dbc68cad4f460017);
+        
+
+        marker_4322eb72e6114be61f5e122cbf0e211d.bindPopup(popup_a136014792f88b6181784ea08dda9164)
+        ;
+
+        
+    
+    
+            var marker_dfc9f9271a274fa4af33ded9342c4108 = L.marker(
+                [43.55, 10.31666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_3cccfa92bf51fd884d86261181928f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67fcb56db62bd8cea298a77cf9a5906a = $(`<div id="html_67fcb56db62bd8cea298a77cf9a5906a" style="width: 100.0%; height: 100.0%;">Livorno (LI)<br>Numero Commesse: 5</div>`)[0];
+            popup_3cccfa92bf51fd884d86261181928f58.setContent(html_67fcb56db62bd8cea298a77cf9a5906a);
+        
+
+        marker_dfc9f9271a274fa4af33ded9342c4108.bindPopup(popup_3cccfa92bf51fd884d86261181928f58)
+        ;
+
+        
+    
+    
+            var marker_5c2dda86382bbab5a3e91f963f94bff2 = L.marker(
+                [45.3136438941991, 9.50508542916554],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_31c217577283451d7f217bc474339d3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6dc849b6053c9e2ae4a00964fe7be78 = $(`<div id="html_e6dc849b6053c9e2ae4a00964fe7be78" style="width: 100.0%; height: 100.0%;">Lodi (LO)<br>Numero Commesse: 4</div>`)[0];
+            popup_31c217577283451d7f217bc474339d3e.setContent(html_e6dc849b6053c9e2ae4a00964fe7be78);
+        
+
+        marker_5c2dda86382bbab5a3e91f963f94bff2.bindPopup(popup_31c217577283451d7f217bc474339d3e)
+        ;
+
+        
+    
+    
+            var marker_9bd154b64db12a689fad68c92ecd6b76 = L.marker(
+                [43.85, 10.51666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_669462ce4f60c4af91e86c2647d87228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fcf5e2bba3e4a7e882d1187b0999f6e = $(`<div id="html_9fcf5e2bba3e4a7e882d1187b0999f6e" style="width: 100.0%; height: 100.0%;">Lucca (LU)<br>Numero Commesse: 5</div>`)[0];
+            popup_669462ce4f60c4af91e86c2647d87228.setContent(html_9fcf5e2bba3e4a7e882d1187b0999f6e);
+        
+
+        marker_9bd154b64db12a689fad68c92ecd6b76.bindPopup(popup_669462ce4f60c4af91e86c2647d87228)
+        ;
+
+        
+    
+    
+            var marker_b32a8e3b8753b2cfcf817b611d206df2 = L.marker(
+                [43.3, 13.45],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_7fd69287c0c5adb5e303bb820ca554cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a7a77232ba0c4617c5c85d66f420d0f = $(`<div id="html_7a7a77232ba0c4617c5c85d66f420d0f" style="width: 100.0%; height: 100.0%;">Macerata (MC)<br>Numero Commesse: 2</div>`)[0];
+            popup_7fd69287c0c5adb5e303bb820ca554cf.setContent(html_7a7a77232ba0c4617c5c85d66f420d0f);
+        
+
+        marker_b32a8e3b8753b2cfcf817b611d206df2.bindPopup(popup_7fd69287c0c5adb5e303bb820ca554cf)
+        ;
+
+        
+    
+    
+            var marker_a4a46c24dd9b153d2c25007c2f72d24e = L.marker(
+                [45.15, 10.78333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ad682ebe09b702210c73ca4dbb09eab4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_241d37f9f7f8e9677dbe951095ef1480 = $(`<div id="html_241d37f9f7f8e9677dbe951095ef1480" style="width: 100.0%; height: 100.0%;">Mantova (MN)<br>Numero Commesse: 20</div>`)[0];
+            popup_ad682ebe09b702210c73ca4dbb09eab4.setContent(html_241d37f9f7f8e9677dbe951095ef1480);
+        
+
+        marker_a4a46c24dd9b153d2c25007c2f72d24e.bindPopup(popup_ad682ebe09b702210c73ca4dbb09eab4)
+        ;
+
+        
+    
+    
+            var marker_f235368a84888ad528ce80f26776dfe8 = L.marker(
+                [44.03333333333333, 10.08333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_50e39c78e4178117e0d761e15ab0027d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4a0ed89fb1ab8d088860596ac811a0f = $(`<div id="html_d4a0ed89fb1ab8d088860596ac811a0f" style="width: 100.0%; height: 100.0%;">Massa (MS)<br>Numero Commesse: 5</div>`)[0];
+            popup_50e39c78e4178117e0d761e15ab0027d.setContent(html_d4a0ed89fb1ab8d088860596ac811a0f);
+        
+
+        marker_f235368a84888ad528ce80f26776dfe8.bindPopup(popup_50e39c78e4178117e0d761e15ab0027d)
+        ;
+
+        
+    
+    
+            var marker_3dafe66c7a99e6bf939be8b3429b03b0 = L.marker(
+                [38.18333333333333, 15.56666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_8727bab3adbcd140050e51fc4cca6282 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2052198ded655c01a227b697ac9c0708 = $(`<div id="html_2052198ded655c01a227b697ac9c0708" style="width: 100.0%; height: 100.0%;">Messina (ME)<br>Numero Commesse: 1</div>`)[0];
+            popup_8727bab3adbcd140050e51fc4cca6282.setContent(html_2052198ded655c01a227b697ac9c0708);
+        
+
+        marker_3dafe66c7a99e6bf939be8b3429b03b0.bindPopup(popup_8727bab3adbcd140050e51fc4cca6282)
+        ;
+
+        
+    
+    
+            var marker_cea8b03ad197486e713babfdabd1a2cc = L.marker(
+                [45.46666666666667, 9.183333333333334],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_c8f806b26aed99df6a8d5baad6726db7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f07c23a108df4bd2a19d8471df63b6e = $(`<div id="html_8f07c23a108df4bd2a19d8471df63b6e" style="width: 100.0%; height: 100.0%;">MIlano (MI)<br>Numero Commesse: 99</div>`)[0];
+            popup_c8f806b26aed99df6a8d5baad6726db7.setContent(html_8f07c23a108df4bd2a19d8471df63b6e);
+        
+
+        marker_cea8b03ad197486e713babfdabd1a2cc.bindPopup(popup_c8f806b26aed99df6a8d5baad6726db7)
+        ;
+
+        
+    
+    
+            var marker_9d39c80398fb96881445c130e62fcac5 = L.marker(
+                [44.65, 10.91666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_bf8f22e14ea5cef26884542565bda41b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_212424065bb76db164fa0e9f440accf8 = $(`<div id="html_212424065bb76db164fa0e9f440accf8" style="width: 100.0%; height: 100.0%;">Modena (MO)<br>Numero Commesse: 4380</div>`)[0];
+            popup_bf8f22e14ea5cef26884542565bda41b.setContent(html_212424065bb76db164fa0e9f440accf8);
+        
+
+        marker_9d39c80398fb96881445c130e62fcac5.bindPopup(popup_bf8f22e14ea5cef26884542565bda41b)
+        ;
+
+        
+    
+    
+            var marker_7182a1ac78940a210317ea821c4bd209 = L.marker(
+                [45.581215306524, 9.27463091531538],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ee58ee69e6d590ae65e48b1ac23a3f0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4327b81afb0b4777f9cd3f915ce6874 = $(`<div id="html_f4327b81afb0b4777f9cd3f915ce6874" style="width: 100.0%; height: 100.0%;">Monza-Brianza (MB)<br>Numero Commesse: 9</div>`)[0];
+            popup_ee58ee69e6d590ae65e48b1ac23a3f0f.setContent(html_f4327b81afb0b4777f9cd3f915ce6874);
+        
+
+        marker_7182a1ac78940a210317ea821c4bd209.bindPopup(popup_ee58ee69e6d590ae65e48b1ac23a3f0f)
+        ;
+
+        
+    
+    
+            var marker_66673a92de40b4d9ab4b5fa831f7b859 = L.marker(
+                [40.8358846, 14.2487679],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_6e96f3667d6533770cf55b2afc32ca4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7be4f7057242b35c840becf67cd09adb = $(`<div id="html_7be4f7057242b35c840becf67cd09adb" style="width: 100.0%; height: 100.0%;">Napoli (NA)<br>Numero Commesse: 6</div>`)[0];
+            popup_6e96f3667d6533770cf55b2afc32ca4b.setContent(html_7be4f7057242b35c840becf67cd09adb);
+        
+
+        marker_66673a92de40b4d9ab4b5fa831f7b859.bindPopup(popup_6e96f3667d6533770cf55b2afc32ca4b)
+        ;
+
+        
+    
+    
+            var marker_86034af1fd3c873690622fd4c9f46940 = L.marker(
+                [45.45, 8.633333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ac4bc8860529640f71dc9b145ee4e26e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a225ded63ef94a5b1a4d6ec29969c3ee = $(`<div id="html_a225ded63ef94a5b1a4d6ec29969c3ee" style="width: 100.0%; height: 100.0%;">Novara (NO)<br>Numero Commesse: 9</div>`)[0];
+            popup_ac4bc8860529640f71dc9b145ee4e26e.setContent(html_a225ded63ef94a5b1a4d6ec29969c3ee);
+        
+
+        marker_86034af1fd3c873690622fd4c9f46940.bindPopup(popup_ac4bc8860529640f71dc9b145ee4e26e)
+        ;
+
+        
+    
+    
+            var marker_f59018d9620d76a0e71b74a79551e431 = L.marker(
+                [40.31666666666667, 9.266666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_efbe789c9bcca52b7e1864070bfd6076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13eadc0c4a0855258a243b1b92c0057 = $(`<div id="html_d13eadc0c4a0855258a243b1b92c0057" style="width: 100.0%; height: 100.0%;">Nuoro (NU)<br>Numero Commesse: 1</div>`)[0];
+            popup_efbe789c9bcca52b7e1864070bfd6076.setContent(html_d13eadc0c4a0855258a243b1b92c0057);
+        
+
+        marker_f59018d9620d76a0e71b74a79551e431.bindPopup(popup_efbe789c9bcca52b7e1864070bfd6076)
+        ;
+
+        
+    
+    
+            var marker_5de243c4c16745acc22451a142599750 = L.marker(
+                [154675.35, 78721.05],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_abbeafb5dfd23c045228b068bbdafe2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6517714d3480910c21767a13e01f9787 = $(`<div id="html_6517714d3480910c21767a13e01f9787" style="width: 100.0%; height: 100.0%;">Olbia-Tempio (OT)<br>Numero Commesse: 4</div>`)[0];
+            popup_abbeafb5dfd23c045228b068bbdafe2f.setContent(html_6517714d3480910c21767a13e01f9787);
+        
+
+        marker_5de243c4c16745acc22451a142599750.bindPopup(popup_abbeafb5dfd23c045228b068bbdafe2f)
+        ;
+
+        
+    
+    
+            var marker_9898c5cf073aa7bbd7f791f6fc66636f = L.marker(
+                [45.4, 11.88333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_148f1532af8d916515e9dbb50223fd95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f6ff7bf95a14ebfa544909b442b103a = $(`<div id="html_7f6ff7bf95a14ebfa544909b442b103a" style="width: 100.0%; height: 100.0%;">Padova (PD)<br>Numero Commesse: 9</div>`)[0];
+            popup_148f1532af8d916515e9dbb50223fd95.setContent(html_7f6ff7bf95a14ebfa544909b442b103a);
+        
+
+        marker_9898c5cf073aa7bbd7f791f6fc66636f.bindPopup(popup_148f1532af8d916515e9dbb50223fd95)
+        ;
+
+        
+    
+    
+            var marker_4d41ec9d9d9aae69e4ddc46859a19243 = L.marker(
+                [38.11666666666667, 13.35],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_11c2b2249019cdd9a85657a866455d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc174d406907b03901f442fc221cde6b = $(`<div id="html_bc174d406907b03901f442fc221cde6b" style="width: 100.0%; height: 100.0%;">Palermo (PA)<br>Numero Commesse: 4</div>`)[0];
+            popup_11c2b2249019cdd9a85657a866455d76.setContent(html_bc174d406907b03901f442fc221cde6b);
+        
+
+        marker_4d41ec9d9d9aae69e4ddc46859a19243.bindPopup(popup_11c2b2249019cdd9a85657a866455d76)
+        ;
+
+        
+    
+    
+            var marker_98e499386188fece31630b1ac85d83ca = L.marker(
+                [44.8, 10.35],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_d4c868ee5b30e3230867925ac7dd8402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cec0d8f9ca2e8b307d4b59564cabd4d = $(`<div id="html_9cec0d8f9ca2e8b307d4b59564cabd4d" style="width: 100.0%; height: 100.0%;">Parma (PR)<br>Numero Commesse: 42</div>`)[0];
+            popup_d4c868ee5b30e3230867925ac7dd8402.setContent(html_9cec0d8f9ca2e8b307d4b59564cabd4d);
+        
+
+        marker_98e499386188fece31630b1ac85d83ca.bindPopup(popup_d4c868ee5b30e3230867925ac7dd8402)
+        ;
+
+        
+    
+    
+            var marker_111131abfeb013ee6f85c4aec6616618 = L.marker(
+                [45.18333333333333, 9.016666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_6ff5ea4ccc710bc2050ed6cbd6f3193f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8124358125f171754da76612f94a265 = $(`<div id="html_b8124358125f171754da76612f94a265" style="width: 100.0%; height: 100.0%;">Pavia (PV)<br>Numero Commesse: 6</div>`)[0];
+            popup_6ff5ea4ccc710bc2050ed6cbd6f3193f.setContent(html_b8124358125f171754da76612f94a265);
+        
+
+        marker_111131abfeb013ee6f85c4aec6616618.bindPopup(popup_6ff5ea4ccc710bc2050ed6cbd6f3193f)
+        ;
+
+        
+    
+    
+            var marker_d186faa10d1cfdb9405f2f0b025e63da = L.marker(
+                [43.11666666666667, 12.4],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_b72b406eb85f44a15cfebda2b01db5cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0ee035db51445453f2dd1b622e6293d = $(`<div id="html_a0ee035db51445453f2dd1b622e6293d" style="width: 100.0%; height: 100.0%;">Perugia (PG)<br>Numero Commesse: 1</div>`)[0];
+            popup_b72b406eb85f44a15cfebda2b01db5cb.setContent(html_a0ee035db51445453f2dd1b622e6293d);
+        
+
+        marker_d186faa10d1cfdb9405f2f0b025e63da.bindPopup(popup_b72b406eb85f44a15cfebda2b01db5cb)
+        ;
+
+        
+    
+    
+            var marker_7f7f38b0de34a48024d17128493e62c7 = L.marker(
+                [43.9, 12.91666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_64d82747c806af68ce1f007878c09264 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7768cf9dbff8aae0aeea4d736ede9ee = $(`<div id="html_b7768cf9dbff8aae0aeea4d736ede9ee" style="width: 100.0%; height: 100.0%;">Pesaro-Urbino (PU)<br>Numero Commesse: 2</div>`)[0];
+            popup_64d82747c806af68ce1f007878c09264.setContent(html_b7768cf9dbff8aae0aeea4d736ede9ee);
+        
+
+        marker_7f7f38b0de34a48024d17128493e62c7.bindPopup(popup_64d82747c806af68ce1f007878c09264)
+        ;
+
+        
+    
+    
+            var marker_6fe679083f8e807d0f676c13036d6e4a = L.marker(
+                [42.45, 14.21666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_26c3489f9dd4056bfa69b6daa1a9067e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d156fe998235a9b871e704f880549f13 = $(`<div id="html_d156fe998235a9b871e704f880549f13" style="width: 100.0%; height: 100.0%;">Pescara (PE)<br>Numero Commesse: 2</div>`)[0];
+            popup_26c3489f9dd4056bfa69b6daa1a9067e.setContent(html_d156fe998235a9b871e704f880549f13);
+        
+
+        marker_6fe679083f8e807d0f676c13036d6e4a.bindPopup(popup_26c3489f9dd4056bfa69b6daa1a9067e)
+        ;
+
+        
+    
+    
+            var marker_8afe63012774aacf75fc1a06fb6ede5f = L.marker(
+                [45.05, 9.683333333333334],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_3846cf9b2de67adffc18f52d2d31b553 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b1bf376b7f2a5afac2df1f0ff33d541 = $(`<div id="html_7b1bf376b7f2a5afac2df1f0ff33d541" style="width: 100.0%; height: 100.0%;">Piacenza (PC)<br>Numero Commesse: 6</div>`)[0];
+            popup_3846cf9b2de67adffc18f52d2d31b553.setContent(html_7b1bf376b7f2a5afac2df1f0ff33d541);
+        
+
+        marker_8afe63012774aacf75fc1a06fb6ede5f.bindPopup(popup_3846cf9b2de67adffc18f52d2d31b553)
+        ;
+
+        
+    
+    
+            var marker_0e568069531e56ddcd6ae96f194d6395 = L.marker(
+                [43.71666666666667, 10.4],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_2a497900e0a58da111eeb98ac392d8e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e559bad77bdea505eb3a028426c591ba = $(`<div id="html_e559bad77bdea505eb3a028426c591ba" style="width: 100.0%; height: 100.0%;">Pisa (PI)<br>Numero Commesse: 5</div>`)[0];
+            popup_2a497900e0a58da111eeb98ac392d8e7.setContent(html_e559bad77bdea505eb3a028426c591ba);
+        
+
+        marker_0e568069531e56ddcd6ae96f194d6395.bindPopup(popup_2a497900e0a58da111eeb98ac392d8e7)
+        ;
+
+        
+    
+    
+            var marker_4511971a65aae5a13858ef349626d976 = L.marker(
+                [43.93333333333333, 10.91666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_7aaf32669e4a5eebb1726a05b5a02273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90303a68e27893bf1013536f9cb5658c = $(`<div id="html_90303a68e27893bf1013536f9cb5658c" style="width: 100.0%; height: 100.0%;">Pistoia (PT)<br>Numero Commesse: 4</div>`)[0];
+            popup_7aaf32669e4a5eebb1726a05b5a02273.setContent(html_90303a68e27893bf1013536f9cb5658c);
+        
+
+        marker_4511971a65aae5a13858ef349626d976.bindPopup(popup_7aaf32669e4a5eebb1726a05b5a02273)
+        ;
+
+        
+    
+    
+            var marker_7a6ef70d4eaaab047aac77d7d0232bc1 = L.marker(
+                [45.95, 12.65],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_8155582c59b91dbe47b225c6d5a76c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_334ed4c91eedf72ec83705a1156a0ef7 = $(`<div id="html_334ed4c91eedf72ec83705a1156a0ef7" style="width: 100.0%; height: 100.0%;">Pordenone (PN)<br>Numero Commesse: 2</div>`)[0];
+            popup_8155582c59b91dbe47b225c6d5a76c22.setContent(html_334ed4c91eedf72ec83705a1156a0ef7);
+        
+
+        marker_7a6ef70d4eaaab047aac77d7d0232bc1.bindPopup(popup_8155582c59b91dbe47b225c6d5a76c22)
+        ;
+
+        
+    
+    
+            var marker_474b52d1160f84d302591ef9fc883232 = L.marker(
+                [43.8797214646601, 11.0976592838789],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_434f78b2e333d1809b1ca4bef0f3d73d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99aaa2d8a56f7a1860e383d208ba0592 = $(`<div id="html_99aaa2d8a56f7a1860e383d208ba0592" style="width: 100.0%; height: 100.0%;">Prato (PO)<br>Numero Commesse: 2</div>`)[0];
+            popup_434f78b2e333d1809b1ca4bef0f3d73d.setContent(html_99aaa2d8a56f7a1860e383d208ba0592);
+        
+
+        marker_474b52d1160f84d302591ef9fc883232.bindPopup(popup_434f78b2e333d1809b1ca4bef0f3d73d)
+        ;
+
+        
+    
+    
+            var marker_f3d6c1ff74d7df99c75e4edcc9435201 = L.marker(
+                [36.9219828, 14.7213455],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_943e347e7a4133713f93a4f98651ffba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047dad6cd969bf4b7dd112a4a69a0535 = $(`<div id="html_047dad6cd969bf4b7dd112a4a69a0535" style="width: 100.0%; height: 100.0%;">Ragusa (RG)<br>Numero Commesse: 1</div>`)[0];
+            popup_943e347e7a4133713f93a4f98651ffba.setContent(html_047dad6cd969bf4b7dd112a4a69a0535);
+        
+
+        marker_f3d6c1ff74d7df99c75e4edcc9435201.bindPopup(popup_943e347e7a4133713f93a4f98651ffba)
+        ;
+
+        
+    
+    
+            var marker_a2f4ae49a9bba440dc27b6e186312d20 = L.marker(
+                [44.41666666666666, 12.2],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_99c21bf01fc689e338efdbf321f46916 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a79e1edc7c6664ab9bd18cdc075b1242 = $(`<div id="html_a79e1edc7c6664ab9bd18cdc075b1242" style="width: 100.0%; height: 100.0%;">Ravenna (RA)<br>Numero Commesse: 20</div>`)[0];
+            popup_99c21bf01fc689e338efdbf321f46916.setContent(html_a79e1edc7c6664ab9bd18cdc075b1242);
+        
+
+        marker_a2f4ae49a9bba440dc27b6e186312d20.bindPopup(popup_99c21bf01fc689e338efdbf321f46916)
+        ;
+
+        
+    
+    
+            var marker_6f14f81813161b723e634e569cb45d9a = L.marker(
+                [44.7, 10.63333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e8bdf70d596f21ec94617a5bfa51fa82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3411d98db43d630fac42e0d2a00b78c8 = $(`<div id="html_3411d98db43d630fac42e0d2a00b78c8" style="width: 100.0%; height: 100.0%;">Reggio Emilia (RE)<br>Numero Commesse: 1467</div>`)[0];
+            popup_e8bdf70d596f21ec94617a5bfa51fa82.setContent(html_3411d98db43d630fac42e0d2a00b78c8);
+        
+
+        marker_6f14f81813161b723e634e569cb45d9a.bindPopup(popup_e8bdf70d596f21ec94617a5bfa51fa82)
+        ;
+
+        
+    
+    
+            var marker_09ed98b5936e5fa7546bc3d70ebd2e40 = L.marker(
+                [42.36666666666667, 12.86666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_49d8daca819da1ceb9dc337a35754d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a12bcf0e9844e4c5ee63cec269d3a8 = $(`<div id="html_39a12bcf0e9844e4c5ee63cec269d3a8" style="width: 100.0%; height: 100.0%;">Rieti (RI)<br>Numero Commesse: 1</div>`)[0];
+            popup_49d8daca819da1ceb9dc337a35754d0e.setContent(html_39a12bcf0e9844e4c5ee63cec269d3a8);
+        
+
+        marker_09ed98b5936e5fa7546bc3d70ebd2e40.bindPopup(popup_49d8daca819da1ceb9dc337a35754d0e)
+        ;
+
+        
+    
+    
+            var marker_c42118ce290b7ea820f6b0019ad93704 = L.marker(
+                [44.06666666666667, 12.56666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_254c71f2dc4731de691854a349aae77e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f84caee55720bf57d81c15b19b86874e = $(`<div id="html_f84caee55720bf57d81c15b19b86874e" style="width: 100.0%; height: 100.0%;">Rimini (RN)<br>Numero Commesse: 10</div>`)[0];
+            popup_254c71f2dc4731de691854a349aae77e.setContent(html_f84caee55720bf57d81c15b19b86874e);
+        
+
+        marker_c42118ce290b7ea820f6b0019ad93704.bindPopup(popup_254c71f2dc4731de691854a349aae77e)
+        ;
+
+        
+    
+    
+            var marker_7aa764dcb5d74791cfec8d927e71a2bf = L.marker(
+                [41.9, 12.48333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_5249234d9a79577ece12867ef00c6862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_681a9e917e798d353b6e486b6e365efd = $(`<div id="html_681a9e917e798d353b6e486b6e365efd" style="width: 100.0%; height: 100.0%;">Roma (RM)<br>Numero Commesse: 53</div>`)[0];
+            popup_5249234d9a79577ece12867ef00c6862.setContent(html_681a9e917e798d353b6e486b6e365efd);
+        
+
+        marker_7aa764dcb5d74791cfec8d927e71a2bf.bindPopup(popup_5249234d9a79577ece12867ef00c6862)
+        ;
+
+        
+    
+    
+            var marker_b350a06355c68b5d8caeea6eb5b82acc = L.marker(
+                [45.06666666666667, 11.8],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_eb319535cce533abd91b02bb1e124fff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9331ee7f4a34410a5bb5b1b38ff616bc = $(`<div id="html_9331ee7f4a34410a5bb5b1b38ff616bc" style="width: 100.0%; height: 100.0%;">Rovigo (RO)<br>Numero Commesse: 5</div>`)[0];
+            popup_eb319535cce533abd91b02bb1e124fff.setContent(html_9331ee7f4a34410a5bb5b1b38ff616bc);
+        
+
+        marker_b350a06355c68b5d8caeea6eb5b82acc.bindPopup(popup_eb319535cce533abd91b02bb1e124fff)
+        ;
+
+        
+    
+    
+            var marker_719eb7cfe73e5bef16a8f973a5c276a2 = L.marker(
+                [40.71666666666667, 8.566666666666666],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_48f9687cdaa055353a357613afde233b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4790ff403f8b7f95bd4fa50fb8c98273 = $(`<div id="html_4790ff403f8b7f95bd4fa50fb8c98273" style="width: 100.0%; height: 100.0%;">Sassari (SS)<br>Numero Commesse: 8</div>`)[0];
+            popup_48f9687cdaa055353a357613afde233b.setContent(html_4790ff403f8b7f95bd4fa50fb8c98273);
+        
+
+        marker_719eb7cfe73e5bef16a8f973a5c276a2.bindPopup(popup_48f9687cdaa055353a357613afde233b)
+        ;
+
+        
+    
+    
+            var marker_dcf4cfcf1fe9eef091ba8d6f56dcc212 = L.marker(
+                [44.31666666666667, 8.466666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_c4371fa661888ff7ffbf265ca958db27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa2868c7ba1cb62755befdf3693a0d07 = $(`<div id="html_aa2868c7ba1cb62755befdf3693a0d07" style="width: 100.0%; height: 100.0%;">Savona (SV)<br>Numero Commesse: 3</div>`)[0];
+            popup_c4371fa661888ff7ffbf265ca958db27.setContent(html_aa2868c7ba1cb62755befdf3693a0d07);
+        
+
+        marker_dcf4cfcf1fe9eef091ba8d6f56dcc212.bindPopup(popup_c4371fa661888ff7ffbf265ca958db27)
+        ;
+
+        
+    
+    
+            var marker_4686d3c1af1df90a4487cc769c9ed20f = L.marker(
+                [43.31666666666667, 11.3],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_cadac2df725df3bb6f331506d444bbec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f717fd2c4dc79b870f03bf16b6c06e1e = $(`<div id="html_f717fd2c4dc79b870f03bf16b6c06e1e" style="width: 100.0%; height: 100.0%;">Siena (SI)<br>Numero Commesse: 3</div>`)[0];
+            popup_cadac2df725df3bb6f331506d444bbec.setContent(html_f717fd2c4dc79b870f03bf16b6c06e1e);
+        
+
+        marker_4686d3c1af1df90a4487cc769c9ed20f.bindPopup(popup_cadac2df725df3bb6f331506d444bbec)
+        ;
+
+        
+    
+    
+            var marker_dade2e7825a8d3f5ce4c0fd0e811815f = L.marker(
+                [40.46666666666667, 17.23333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_4f8893ebede9278b722c0383d0bbe963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade3cefdb1ad948c5db20cf72fa91269 = $(`<div id="html_ade3cefdb1ad948c5db20cf72fa91269" style="width: 100.0%; height: 100.0%;">Taranto (TA)<br>Numero Commesse: 1</div>`)[0];
+            popup_4f8893ebede9278b722c0383d0bbe963.setContent(html_ade3cefdb1ad948c5db20cf72fa91269);
+        
+
+        marker_dade2e7825a8d3f5ce4c0fd0e811815f.bindPopup(popup_4f8893ebede9278b722c0383d0bbe963)
+        ;
+
+        
+    
+    
+            var marker_180181b34d7701ebc0e2500cf832c954 = L.marker(
+                [42.563985887876, 12.6366003741517],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_7b30814a5f713b69b2200dd96ff521a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f22e5e702af71c8de89e86879ebd33c = $(`<div id="html_2f22e5e702af71c8de89e86879ebd33c" style="width: 100.0%; height: 100.0%;">Terni (TR)<br>Numero Commesse: 4</div>`)[0];
+            popup_7b30814a5f713b69b2200dd96ff521a6.setContent(html_2f22e5e702af71c8de89e86879ebd33c);
+        
+
+        marker_180181b34d7701ebc0e2500cf832c954.bindPopup(popup_7b30814a5f713b69b2200dd96ff521a6)
+        ;
+
+        
+    
+    
+            var marker_6fff0d78f406220119e22d8ab0aa713a = L.marker(
+                [45.06666666666667, 7.7],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_2b8a5df79a58d15ef40f8732636e8282 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a69a0aecd945519e2e657b484c9443a6 = $(`<div id="html_a69a0aecd945519e2e657b484c9443a6" style="width: 100.0%; height: 100.0%;">Torino (TO)<br>Numero Commesse: 29</div>`)[0];
+            popup_2b8a5df79a58d15ef40f8732636e8282.setContent(html_a69a0aecd945519e2e657b484c9443a6);
+        
+
+        marker_6fff0d78f406220119e22d8ab0aa713a.bindPopup(popup_2b8a5df79a58d15ef40f8732636e8282)
+        ;
+
+        
+    
+    
+            var marker_f0bc06bf19c0598342659acc032afaa2 = L.marker(
+                [38.01666666666667, 12.53333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e0ad24be1f2dc176d30498e5ff71c7de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0442b0009f9be480b7f7b8adc76652bc = $(`<div id="html_0442b0009f9be480b7f7b8adc76652bc" style="width: 100.0%; height: 100.0%;">Trapani (TP)<br>Numero Commesse: 1</div>`)[0];
+            popup_e0ad24be1f2dc176d30498e5ff71c7de.setContent(html_0442b0009f9be480b7f7b8adc76652bc);
+        
+
+        marker_f0bc06bf19c0598342659acc032afaa2.bindPopup(popup_e0ad24be1f2dc176d30498e5ff71c7de)
+        ;
+
+        
+    
+    
+            var marker_333ec5a61f795136018e94370c27f372 = L.marker(
+                [46.06666666666667, 11.13333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_80b83d738899387e90111e409b53feb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7ec578600f38885b1f16175646ba1ba = $(`<div id="html_d7ec578600f38885b1f16175646ba1ba" style="width: 100.0%; height: 100.0%;">Trento (TN)<br>Numero Commesse: 5</div>`)[0];
+            popup_80b83d738899387e90111e409b53feb4.setContent(html_d7ec578600f38885b1f16175646ba1ba);
+        
+
+        marker_333ec5a61f795136018e94370c27f372.bindPopup(popup_80b83d738899387e90111e409b53feb4)
+        ;
+
+        
+    
+    
+            var marker_f367cd062fbc7cf265e0a14b8c306eee = L.marker(
+                [45.6620031785344, 12.2488460070411],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_fe121b69c8ec12cfe04275040f395055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e49864e8d006e9ee0d64b197e24227 = $(`<div id="html_93e49864e8d006e9ee0d64b197e24227" style="width: 100.0%; height: 100.0%;">Treviso (TV)<br>Numero Commesse: 6</div>`)[0];
+            popup_fe121b69c8ec12cfe04275040f395055.setContent(html_93e49864e8d006e9ee0d64b197e24227);
+        
+
+        marker_f367cd062fbc7cf265e0a14b8c306eee.bindPopup(popup_fe121b69c8ec12cfe04275040f395055)
+        ;
+
+        
+    
+    
+            var marker_54a4fa5d08a1ce5ba34f37f786bf26e0 = L.marker(
+                [45.65, 13.76666666666667],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_cd2c26de71423da7d799596880b82dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b869a3fafd6156867dda2b3e2186e628 = $(`<div id="html_b869a3fafd6156867dda2b3e2186e628" style="width: 100.0%; height: 100.0%;">Trieste (TS)<br>Numero Commesse: 2</div>`)[0];
+            popup_cd2c26de71423da7d799596880b82dc2.setContent(html_b869a3fafd6156867dda2b3e2186e628);
+        
+
+        marker_54a4fa5d08a1ce5ba34f37f786bf26e0.bindPopup(popup_cd2c26de71423da7d799596880b82dc2)
+        ;
+
+        
+    
+    
+            var marker_9652fc6d9c326e18051fb570b16bc734 = L.marker(
+                [46.06666666666667, 13.23333333333333],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_e0e49795502a34e319853fd3f9e41c01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f891c4cc45b8f043494c9c968b931e55 = $(`<div id="html_f891c4cc45b8f043494c9c968b931e55" style="width: 100.0%; height: 100.0%;">Udine (UD)<br>Numero Commesse: 2</div>`)[0];
+            popup_e0e49795502a34e319853fd3f9e41c01.setContent(html_f891c4cc45b8f043494c9c968b931e55);
+        
+
+        marker_9652fc6d9c326e18051fb570b16bc734.bindPopup(popup_e0e49795502a34e319853fd3f9e41c01)
+        ;
+
+        
+    
+    
+            var marker_b25e4f1a924ec61e8a9916b0e6ea8e19 = L.marker(
+                [45.8168311314341, 8.83085175040548],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_238b41ff1506228a36c7aff611ee6b7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2b6f1c11bd74d0545d8c933f0e50a88 = $(`<div id="html_d2b6f1c11bd74d0545d8c933f0e50a88" style="width: 100.0%; height: 100.0%;">Varese (VA)<br>Numero Commesse: 7</div>`)[0];
+            popup_238b41ff1506228a36c7aff611ee6b7c.setContent(html_d2b6f1c11bd74d0545d8c933f0e50a88);
+        
+
+        marker_b25e4f1a924ec61e8a9916b0e6ea8e19.bindPopup(popup_238b41ff1506228a36c7aff611ee6b7c)
+        ;
+
+        
+    
+    
+            var marker_b7162e032806a96e2523a054cc85ec78 = L.marker(
+                [45.43333333333333, 12.35],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_8ad6d22bbcc41188e3fc30b313bc1a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0f106ddf659969a8de7fa8c110bdde = $(`<div id="html_6b0f106ddf659969a8de7fa8c110bdde" style="width: 100.0%; height: 100.0%;">Venezia (VE)<br>Numero Commesse: 14</div>`)[0];
+            popup_8ad6d22bbcc41188e3fc30b313bc1a06.setContent(html_6b0f106ddf659969a8de7fa8c110bdde);
+        
+
+        marker_b7162e032806a96e2523a054cc85ec78.bindPopup(popup_8ad6d22bbcc41188e3fc30b313bc1a06)
+        ;
+
+        
+    
+    
+            var marker_2c36b2d12a2809f9e85bcb4bdbbb342b = L.marker(
+                [45.93333333333333, 8.55],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_c53e89723bd994c14e803f6bd4ccfbaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_488361e0a8b85feda951ea26ceb6d13b = $(`<div id="html_488361e0a8b85feda951ea26ceb6d13b" style="width: 100.0%; height: 100.0%;">Verbania (VB)<br>Numero Commesse: 1</div>`)[0];
+            popup_c53e89723bd994c14e803f6bd4ccfbaf.setContent(html_488361e0a8b85feda951ea26ceb6d13b);
+        
+
+        marker_2c36b2d12a2809f9e85bcb4bdbbb342b.bindPopup(popup_c53e89723bd994c14e803f6bd4ccfbaf)
+        ;
+
+        
+    
+    
+            var marker_9a9ff07c0e22fb2b351df6bfa94f7e8a = L.marker(
+                [45.3257889927402, 8.41891422604271],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_7a0605a712f377fe302c1528aa8434c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30b04459e39318d5017793cfc3846e5b = $(`<div id="html_30b04459e39318d5017793cfc3846e5b" style="width: 100.0%; height: 100.0%;">Vercelli (VC)<br>Numero Commesse: 1</div>`)[0];
+            popup_7a0605a712f377fe302c1528aa8434c9.setContent(html_30b04459e39318d5017793cfc3846e5b);
+        
+
+        marker_9a9ff07c0e22fb2b351df6bfa94f7e8a.bindPopup(popup_7a0605a712f377fe302c1528aa8434c9)
+        ;
+
+        
+    
+    
+            var marker_ca0426983f98c6f6eca225bfbf6d0ad5 = L.marker(
+                [45.45, 11.0],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_ead142aa6b05d1d5211d9896ad4865e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00dd5e11304cc0865ec468ced24ed01e = $(`<div id="html_00dd5e11304cc0865ec468ced24ed01e" style="width: 100.0%; height: 100.0%;">Verona (VR)<br>Numero Commesse: 25</div>`)[0];
+            popup_ead142aa6b05d1d5211d9896ad4865e8.setContent(html_00dd5e11304cc0865ec468ced24ed01e);
+        
+
+        marker_ca0426983f98c6f6eca225bfbf6d0ad5.bindPopup(popup_ead142aa6b05d1d5211d9896ad4865e8)
+        ;
+
+        
+    
+    
+            var marker_31160381ce5c6d87b0bec1a5221452cf = L.marker(
+                [45.55, 11.55],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_c1c79ff1c20e3b7b8442cffa4833d6a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c557deca19caf0e613a2094fbc5e4d3 = $(`<div id="html_3c557deca19caf0e613a2094fbc5e4d3" style="width: 100.0%; height: 100.0%;">Vicenza (VI)<br>Numero Commesse: 6</div>`)[0];
+            popup_c1c79ff1c20e3b7b8442cffa4833d6a7.setContent(html_3c557deca19caf0e613a2094fbc5e4d3);
+        
+
+        marker_31160381ce5c6d87b0bec1a5221452cf.bindPopup(popup_c1c79ff1c20e3b7b8442cffa4833d6a7)
+        ;
+
+        
+    
+    
+            var marker_81cb260332822924e98a0348bbb00300 = L.marker(
+                [42.421114475244, 12.1051938997174],
+                {}
+            ).addTo(map_6fa21c09312496151ada856b77575797);
+        
+    
+        var popup_cd51a8ad32d86a20be398f1ac34a279a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e5b97e7db52a35f1e744d88bc1f5e88 = $(`<div id="html_4e5b97e7db52a35f1e744d88bc1f5e88" style="width: 100.0%; height: 100.0%;">Viterbo (VT)<br>Numero Commesse: 3</div>`)[0];
+            popup_cd51a8ad32d86a20be398f1ac34a279a.setContent(html_4e5b97e7db52a35f1e744d88bc1f5e88);
+        
+
+        marker_81cb260332822924e98a0348bbb00300.bindPopup(popup_cd51a8ad32d86a20be398f1ac34a279a)
+        ;
+
+        
+    
+</script>
+</html>
